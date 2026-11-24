@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f5f0ff;
+            color: #333;
+        }
+
+        header {
+            background: #6c3fc5;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #512a9e;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        .intro {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .intro img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 5px solid #8c63db;
+            object-fit: cover;
+            background: #ddd;
+        }
+
+        .intro h2 {
+            color: #6c3fc5;
+            margin: 20px 0 10px;
+        }
+
+        .intro p {
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #6c3fc5;
+            margin-bottom: 25px;
+        }
+
+        .creations {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 260px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px #00000015;
+        }
+
+        .card img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 8px;
+            background: #ddd;
+        }
+
+        .card h3 {
+            color: #6c3fc5;
+            margin: 15px 0 10px;
+        }
+
+        footer {
+            background: #512a9e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 8px;
+            }
+
+            .card {
+                width: 100%;
+                max-width: 320px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Welcome to My Personal Website</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#creations">Creations</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="intro" id="home">
+        <!-- Replace with your photo -->
+        <img src="myphoto.jpg" alt="My Profile Photo">
+
+        <h2>Hello, I'm Your Name!</h2>
+        <p>
+            Welcome to my portfolio website.
+            I am a creative person interested in technology,
+            designing, and creating new things.
+        </p>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a student passionate about learning,
+            creativity, and technology.
+            This website showcases my skills and creations.
+        </p>
+    </section>
+
+    <section id="creations">
+        <h2>My Creations</h2>
+
+        <div class="creations">
+
+            <div class="card">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>My First Project</h3>
+                <p>A showcase of my first creative project.</p>
+            </div>
+
+            <div class="card">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>My Second Project</h3>
+                <p>A project created using my ideas and skills.</p>
+            </div>
+
+            <div class="card">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>My Third Project</h3>
+                <p>Another example of my creativity.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: yourname@example.com</p>
+        <p>Thank you for visiting my portfolio!</p>
+    </section>
+
+    <footer>
+        <p>© 2026 My Personal Portfolio | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
